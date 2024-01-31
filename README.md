@@ -9,7 +9,7 @@ Menu de acciones:
 
 ![enter image description here](https://raw.githubusercontent.com/XanderL2/sound_manager/main/preview/preview.jpeg)
 
-![enter image description here](https://raw.githubusercontent.com/XanderL2/sound_manager/main/preview/preview1.jpeg
+![enter image description here](https://raw.githubusercontent.com/XanderL2/sound_manager/main/preview/preview1.jpeg)
 
 ## Dependencias:
 Solo necesitamos instalar PulseAudio desde los repositorios de nuestra distribucion:
