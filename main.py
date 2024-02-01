@@ -1,4 +1,4 @@
-import os, subprocess, re;
+import os, subprocess, re, time;
 
 
 
@@ -30,14 +30,17 @@ while(True):
 
     try:
         volumen = int(input("Opcion: "));
-    except Exception as e:
-        print(f"Ha sucedido un error, no ingresaste bien: {e}")
-            
 
-    if(volumen == 1):
-        os.system("pactl set-sink-volume @DEFAULT_SINK@ +10%")
-    elif(volumen == 2):
-        os.system("pactl set-sink-volume @DEFAULT_SINK@ -10%")
+    except Exception as e:
+
+        print(f"Ha sucedido un error, no ingresaste bien: {e}")
+        time.sleep(1);
+
+    else:
+        if(volumen == 1):
+            os.system("pactl set-sink-volume @DEFAULT_SINK@ +10%")
+        elif(volumen == 2):
+            os.system("pactl set-sink-volume @DEFAULT_SINK@ -10%")
 
     
 
