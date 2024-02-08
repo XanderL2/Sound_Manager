@@ -1,4 +1,4 @@
-# sound_manager
+# Sound_Manager
 
 ## Bienvenida
 Hola, en complemento al entorno Linux he creado un pequeño Script que automatiza la ejecucion de los comandos largos de la utilidad Pactl de Pulse audio, el cual te permite subir y bajar volumen de manera rapida y automatica. Es muy simple, solo almacenas el script de manera local y creas un alias en la configuracion de tu Shell de preferencia, en mi caso uso ZSH. Dicho eso dejo imagenes de la herramienta de terminal: 
